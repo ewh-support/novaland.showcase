@@ -13,20 +13,12 @@
             var listData = [];
             var item = {};
 
-            { { #each(lookupCategory AllCategory 'batdongsan.block' 'files') } }
-            { { #eq../ slug chungcuId } }
-            item = {};
-            item["RecordID"] = "NaN";
-            item["slug"] = "chung-cu-01";
-            item["title"] = "Chung Cư 01";
-            item["date"] = "09 - 03 - 2018";
-            listData.push(item);
-            {
-                {
-                    /eq}}
-                    {                        
-{
-                            /each}}
+                item = {};
+                item["RecordID"] = "4";
+                item["slug"] = "block-01-chung-cu-01";
+                item["title"] = "Block 01 Chung Cư 01";
+                item["date"] = "09 - 03 - 2018";
+                listData.push(item);
 
                             var dataJSONArray = listData;  // JSON.parse(array);
                             var datatable = $('.m_datatable').mDatatable({

@@ -13,20 +13,6 @@
             var listData = [];
             var item = {};
 
-            { { #each(lookupCategory AllCategory 'batdongsan.block' 'files') } }
-            { { #eq../ slug chungcuId } }
-            item = {};
-            item["RecordID"] = "NaN";
-            item["slug"] = "chung-cu-02";
-            item["title"] = "Chung Cư 02";
-            item["date"] = "09 - 03 - 2018";
-            listData.push(item);
-            {
-                {
-                    /eq}}
-                    {                        
-{
-                            /each}}
 
                             var dataJSONArray = listData;  // JSON.parse(array);
                             var datatable = $('.m_datatable').mDatatable({
