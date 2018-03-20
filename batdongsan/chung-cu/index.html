@@ -21,7 +21,7 @@
    
         data.addRow(['Bàn Giao ', 1]);
         data.addRow(['Đang Xây ', 1]);
-        data.addRow(['Hoàn Thiện ', 1]);
+        data.addRow(['Hoàn Thiện ', 2]);
     
     // Set chart options
     var options = {'title':'Danh Sach Chung Cư',
@@ -64,6 +64,14 @@
                 item["vitriduan"] = "104 Phổ Quang, P.2, Quận Tân Bình, Tp. HCM";
                 item["date"] = "09-03-2018";
                 item["status"] = "Bàn Giao ";
+                listData.push(item);
+                item = {};
+                item["RecordID"] = "4"; 
+                item["slug"] = "chung-cu-tets";
+                item["title"] = "Chung cư Tets";
+                item["vitriduan"] = "";
+                item["date"] = "20-03-2018";
+                item["status"] = "Hoàn Thiện ";
                 listData.push(item);
 
             var dataJSONArray = listData;  // JSON.parse(array);
